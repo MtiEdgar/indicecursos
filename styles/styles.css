@@ -1,0 +1,120 @@
+.default{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logicaprog{
+  display: flex;
+}
+
+/* .img{
+  mask-image: linear-gradient(red 80%, transparent);
+}  En espera de hacer pruebas*/ */
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 2px 2px 2px rgb(90, 89, 185);
+  }
+  
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 2px 2px 2px rgb(90, 89, 185);
+    text-align: center;
+  }
+  
+  h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 2px 2px 2px rgb(90, 89, 185);
+  }
+
+  p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    /*font-size: 12;*/
+  }
+
+.crumb {
+    display: inline-block;
+    padding: 20px;
+    padding-left: 290px;
+    padding-right: 20px;
+}
+
+img {
+    margin: 10px;
+  }
+
+
+  /* Define the glitch class */
+  /*Animacion de movimiento de las imagenes*/
+.glitch {
+  position: relative;
+  display: inline-block;
+  animation: glitch 10s infinite;
+}
+
+/* Define the glitch animation */
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-5px, 5px);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+  75% {
+    transform: translate(-5px, 5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+/*Para controlar el contenedor principal*/
+/*.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.item1{
+  flex-basis: 200px;
+}
+.item2{
+  flex-basis: 200px;
+}
+.item3{
+  flex-basis: 200px;
+}
+.item4{
+  flex-basis: 200px;
+}
+.item5{
+  flex-basis: 200px;
+}
+.item6{
+  flex-basis: 200px;
+}
+.item7{
+  flex-basis: 200px;
+}
+.item8{
+  flex-basis: 200px;
+}
+.item9{
+  flex-basis: 200px;
+}*/
